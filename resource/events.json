@@ -1,18 +1,5 @@
 [
   {
-    "id": "20240315-001",
-    "date": "2024-03-15",
-    "time": "09:52",
-    "title": "專案啟動：dpp_gov_epoch",
-    "location": "台北",
-    "people": ["Simon", "Alice/Kira"],
-    "event": "Simon 決定啟動 dpp_gov_epoch 專案，使用 Next.js 作為開發框架。",
-    "object": "Next.js Template",
-    "category": "系統開發",
-    "tags": ["Next.js", "專案初始化"],
-    "source_file": "2024-03-15_startup.md"
-  },
-  {
     "id": "20251128-001",
     "date": "2025-11-28",
     "time": "18:19",
