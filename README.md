@@ -39,7 +39,19 @@ To learn more about Next.js, take a look at the following resources:
 ```markdown
 # 事件標題
 
-這裡是事件的詳細描述內容...
+## 事件概述
+這裡是事件背景的簡要說明。
+
+## 事件摘要 (Event Summary)
+這裡放置與 events.json 中 "event" 欄位完全相同的簡短摘要內容，用於快速預覽。
+
+## 詳細內容
+這裡是事件的詳細描述內容、發展經過等。
+
+## 相關資訊
+- **地點**：事件發生地
+- **日期**：YYYY-MM-DD
+- **關鍵字**：標籤1、標籤2
 ```
 
 ### 2. 更新索引檔案 (events.json)
