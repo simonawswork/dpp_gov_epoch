@@ -18,6 +18,12 @@ export default async function EventDetailPage({ params }: PageProps) {
 
   const content = getEventContent(eventInfo.source_file);
 
+  // Filter out the "人時事地物" section from markdown content
+  const filteredContent = content
+    .split(/(?=^## )/m)
+    .filter(section => !section.trim().startsWith('## 人時事地物'))
+    .join('');
+
   return (
     <main className="min-h-screen p-8 max-w-4xl mx-auto">
       <Link 
@@ -41,7 +47,7 @@ export default async function EventDetailPage({ params }: PageProps) {
         </div>
 
         <article className="prose dark:prose-invert max-w-none">
-          <ReactMarkdown>{content}</ReactMarkdown>
+          <ReactMarkdown>{filteredContent}</ReactMarkdown>
         </article>
 
         <div className="mt-12 pt-8 border-t border-gray-100 dark:border-gray-800">
