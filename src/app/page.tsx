@@ -31,6 +31,10 @@ export default function Home() {
               <p className="text-gray-700 dark:text-gray-300 mb-3 italic">
                 {event.event}
               </p>
+              
+              <div className="text-blue-500 text-xs font-bold flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                閱讀更多 <span>→</span>
+              </div>
             </Link>
             
             <div className="flex flex-wrap gap-x-4 gap-y-2 mt-3 border-t border-gray-50 dark:border-gray-800/50 pt-2">
