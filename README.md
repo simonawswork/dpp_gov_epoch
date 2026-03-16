@@ -42,7 +42,7 @@ To learn more about Next.js, take a look at the following resources:
 ## 事件概述
 這裡是事件背景的簡要說明。
 
-## 事件摘要 (Event Summary)
+## 事件摘要
 這裡放置與 events.json 中 "event" 欄位完全相同的簡短摘要內容，用於快速預覽。
 
 ## 詳細內容
